@@ -1,0 +1,27 @@
+main{
+  grid-area: main;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 40px; 
+  grid-template-areas: 
+    "contentTittle contentTittle contentTittle contentTittle"
+    "firstItem firstItem secondItem secondItem"
+    "thirdItem thirdItem fourthItem fourthItem"
+    "thirdItem thirdItem fourthItem fourthItem";
+  padding: 40px 40px 0;
+
+  &>div{
+    width: 100%;
+    height: 100%;
+    background-color: #27263A;
+    border-radius: 25px;
+  }
+
+  .contentTittle { grid-area: contentTittle; }
+  .firstItem { grid-area: firstItem; }
+  .secondItem { grid-area: secondItem; }
+  .thirdItem { grid-area: thirdItem; }
+  .fourthItem { grid-area: fourthItem; }
+
+}

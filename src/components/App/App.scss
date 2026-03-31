@@ -1,0 +1,15 @@
+.page{
+  display: grid; 
+  grid-template-columns: 0.15fr 1fr 1fr 1fr; 
+  grid-template-rows: 0.10fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "nav header header header"
+    "nav main main main"
+    "nav main main main"
+    "nav main main main";
+  
+  background-color: #1F1D2A;
+  padding: 20px;
+  height: 100vh;
+}
