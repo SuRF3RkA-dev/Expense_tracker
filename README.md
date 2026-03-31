@@ -18,6 +18,6 @@
 
 - **Frontend:** React, JavaScript, CSS / SCSS  
 - **Backend / Database:** Firebase (optional)  
-- **Tools:** Vite / Create React App, Git  
+- **Tools:** Create React App, Git  
 
 ---
